@@ -1,14 +1,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Marhey:wght@300&family=Oswald:wght@300;400;500;600;700&family=Satisfy&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
-    background-image: image('...assets/image/disneypicture');
+    background: #bbbbbb
 }
 
-.heading{
+/*Heading */
+.header{
     text-align: center;
     font-family: Marhey, sans-serif;
-    font-size: x-large;
+    font-size: 2.5rem;
+    color: beige;
 }
 
 .logo{
@@ -16,6 +23,32 @@ body{
   
 }
 
-.facts{
+.inner-container{
     text-align: center;
 }
+
+  /* General design to apply to the quiz */
+  body {
+    /*The image had been taken https: //pixabay.com/photos/cosmos-milky-way-night-sky-stars-1853491/*/
+    background: url(../images/disneypicture.jpg)  left 30% bottom 100%/100%;
+    background-repeat: repeat;
+    background-color: rgb(43, 71, 84);
+    
+    font-family: 'Marhey', sans-serif;
+}
+.game-area {
+
+    height: 30em;
+    background: transparent;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 0.5em;
+
+}
+ 
