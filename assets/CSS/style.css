@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Marhey:wght@300&family=Oswald:wght@300;400;500;600;700&family=Satisfy&display=swap');
 
 body{
-    background: bisque;
+    background-image: image('...assets/image/disneypicture');
 }
 
 .heading{
