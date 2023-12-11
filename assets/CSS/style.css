@@ -11,13 +11,23 @@ body{
 }
 
 /*Heading */
-.header{
+.heading{
     text-align: center;
     font-family: Marhey, sans-serif;
     font-size: 2.5rem;
     color: beige;
 }
 
+.control-area{
+    text-align: center;
+}  
+
+.btn btn--black{
+    text-align: center;
+}
+.score-area{
+text-align: center;
+}
 .logo{
     text-align: center;
   
@@ -36,19 +46,6 @@ body{
     
     font-family: 'Marhey', sans-serif;
 }
-.game-area {
 
-    height: 30em;
-    background: transparent;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    margin-top: 0.5em;
 
-}
  
