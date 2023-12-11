@@ -1,134 +1,170 @@
 const questions = [
     {
         question: "Which disney princess sings 'Once upon a time'?",
-        option1: "Cinderella",
-        option2: "Aorora",
-        option3: "snow-white",
-        option4: "Ariel",
-        answer: 2
+        answers: [
+        {option1: "Cinderella",correct: false},
+        {option2: "Aorora", correct: true},
+        {option3: "snow-white", correct: false},
+        {option4: "Ariel", correct: false},
+        ]
     },
 {
     question: "What are Cinderella's stepsisters called?",
-    option1: "Cornelia and Amanda",
-    option2: "Betty and annie",
-    option3: "Anastasia och Drizella",
-    option4: "Alicia and Minnie",
-    answer: 3
+    answer:[
+    {option1: "Cornelia and Amanda", correct: false},
+    {option2: "Betty and annie", correct: false},
+    {option3: "Anastasia och Drizella", correct: true},
+    {option4: "Alicia and Minnie", correct: false},
+    ]
 },
 
 {
     question: "How many brothers does Prince Hans of the Southern Isles have in Frozen?",
-    option1: "12",
-    option2: "7",
-    option3: "14",
-    option4: "10",
-    answer: 1
+    answer: [
+    {option1: "12", correct: true},
+    {option2: "7", correct: false},
+    {option3: "14", correct: false},
+    {option4: "10", correct: false},
+    ]
 },
 
 {
     question: "What does 'Hakuna Matata' mean?",
-    option1: "seize the day",
-    option2: "No worries",
-    option3: "Leave it",
-    option4: "Don't care",
-    answer: 2
+    answer: [
+    {option1: "seize the day", correct: false},
+    {option2: "No worries", correct: true},
+    {option3: "Leave it", correct: false},
+    {option4: "Don't care", correct: false},
+    ]
 },
 
 {
     question: "Who is Mufasa's trusted advisor in The Lion King?",
-    option1: "scar",
-    option2: "zazu",
-    option3: "Zarabi",
-    option4: "Rafiki",
-    answer: 2
+    answer: [
+    {option1: "scar", correct: false},
+    {option2: "zazu", correct: true},
+    {option3: "Zarabi", correct: false},
+    {option4: "Rafiki", correct: false},
+    ]
 },
 
 {
     question: "Who is Goofy's son?",
-    option1: "John",
-    option2: "Sebastian",
-    option3: "Peter",
-    option4: "Maximilian",
-    answer: 4
+    answer: [
+    {option1: "John", correct: false},
+    {option2: "Sebastian", correct: false},
+    {option3: "Peter", correct: false},
+    {option4: "Maximilian", correct: true},
+    ]
 },
 
 {
     question: "What is the name of Sleeping Beauty's prince?",
-    option1: "Prins Philip",
-    option2: "Prins Eric",
-    option3: "Prins John",
-    option4: "Prins Alladin",
-    answer: 1
+    answer: [
+    {option1: "Prins Philip", correct: true},
+    {option2: "Prins Eric", correct: false},
+    {option3: "Prins John", correct: false},
+    {option4: "Prins Alladin", correct: false},
+    ]
 },
 
 {
     question: "Pongo and Perdita originally had how many puppies in 101 Dalmatians?",
-    option1: "8",
-    option2: "17",
-    option3: "15",
-    option4: "11",
-    answer: 3
+    answer: [
+    {option1: "8", correct: false},
+    {option2: "17", correct: false},
+    {option3: "15", correct: true},
+    {option4: "11", correct: false},
+    ]
 },
 
-{
-    question: "Pongo and Perdita originally had how many puppies in 101 Dalmatians?",
-    option1: "8",
-    option2: "17",
-    option3: "15",
-    option4: "11",
-    answer: 3
-},
+
 
 {
     question: "What were Mickey Mouse's first ever spoken words?",
-    option1: "Banana",
-    option2: "Hot dog",
-    option3: "Hello",
-    option4: "pip",
-    answer: 2
+    answer: [
+    {option1: "Banana", correct: false},
+    {option2: "Hot dog", correct: true},
+    {option3: "Hello", correct: false},
+    {option4: "pip", correct: false},
+    ]
 },
 
 {
     question: "Who is Miguel's idol in Coco?",
-    option1: "Rocío Jurado",
-    option2: "Rafael Nadal",
-    option3: "Salvador Dalí",
-    option4: "Ernesto de la Cruz",
-    answer: 2
+    answer:[
+    {option1: "Rocío Jurado", correct: false},
+    {option2: "Rafael Nadal", correct: false},
+    {option3: "Salvador Dalí", correct: false},
+    {option4: "Ernesto de la Cruz", correct: true},
+    ]
 },
 
 {
     question : "What is the name of the Italian restaurant where Lady and the Tramp share spaghetti?",
-    option1: "Tony's restaurant",
-    option2: "Danni's restaurant",
-    option3: "Mike's restaurant",
-    option4: "Ellas's restaurant",
-    answer: 1
+    answer: [
+    {option1: "Tony's restaurant", correct: true},
+    {option2: "Danni's restaurant", correct: false},
+    {option3: "Mike's restaurant", correct: false},
+    {option4: "Ellas's restaurant", correct: false},
+    ]
 },
 
 {
     question : "What was the name of Simba's evil uncle?",
-    option1: "Scar",
-    option2: "Blood",
-    option3: "brain",
-    option4: "diseas",
-    answer: 1
+    answer: [
+    {option1: "Scar", correct: true},
+    {option2: "Blood", correct: false},
+    {option3: "brain", correct: false},
+    {option4: "diseas", correct: false},
+    ]
 },
 
 {
     question : "Quasimodo was the bell ringer of which famous cathedral?",
-    option1: "maria del mar",
-    option2: "Sevilla",
-    option3: "Notre Dame",
-    option4: "Primada",
-    answer: 3
+    answer: [
+    {option1: "maria del mar", correct: false},
+    {option2: "Sevilla", correct: false},
+    {option3: "Notre Dame", correct: true},
+    {option4: "Primada", correct: false},
+    ]
 },
 {
     question : "What is the name of Pocahontas' raccoon?",
-    option1: "Pichu",
-    option2: "Neko",
-    option3: "Stitch",
-    option4: "Figarro",
-    answer: 3
+    answer: [
+    {option1: "Pichu", correct: false},
+    {option2: "Neko", correct: true},
+    {option3: "Stitch", correct: false},
+    {option4: "Figarro", correct: false},
+    ]
 },
-]
+];
+
+const questionElement = document.getElementById("question");
+const answerButton = document.getElementById("answer-buttons");
+const nextButton = document.getElementById("next-btn");
+
+let currentQuestionIndex = 0;
+let score = 0;
+
+function startQuiz(){
+    currentQuestionIndex = 0;
+    score = 0;
+    nextButton.innerHTML = "next";
+    showQuestion();
+}
+
+function showQuestion(){
+    let currentQuestion = questions[currentQuestionIndex]
+    let questionNo = currentQuestionIndex + 1;
+    questionElement.innerHTML = questionNo + "." + currentQuestion.question;
+    currentQuestion.answers.forEach(answer => {
+        const button = document.createElement("button");
+        button.innerHTML = answer.text;
+        button.classList.add("bnt");
+        answerButton.appenChild(button);
+    });
+}
+startQuiz(){
+    
+}
