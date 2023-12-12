@@ -11,7 +11,7 @@ body{
 }
 
 /*Heading */
-.heading{
+.heading  {
     text-align: center;
     font-family: Marhey, sans-serif;
     font-size: 2.5rem;
@@ -52,6 +52,9 @@ body{
     font-weight: 600;
 
 }
+.score{
+    color: #000;
+}
 
 .btn{
     background: #bbbbbb;
@@ -64,12 +67,23 @@ body{
     text-align: left;
     border-radius: 4px;
     cursor: pointer;
-    transition: all 0.3;
+    transition: none;
 }
 
-.btn:hover{
+.correct{
+    background: #1899CD;
+}
+.incorrect{
+    background: #FC0505;
+}
+
+.btn:hover:not(disabled){
     background: #000;
     color: #bbbbbb;
+}
+
+.btn:disabled{
+    cursor: no-drop;
 }
 
 #next-btn{
@@ -87,7 +101,6 @@ body{
 
 .logo{
     text-align: center;
-  
 }
 
 
@@ -95,7 +108,7 @@ body{
   /* General design to apply to the quiz */
   body {
     /*The image had been taken https: //pixabay.com/photos/cosmos-milky-way-night-sky-stars-1853491/*/
-    background: url(../images/disneypicture.jpg)  left 30% bottom 100%/100%;
+    background: url(../images/disneypicture.jpg)  left 100% bottom 100%/100%;
     background-repeat: repeat;
     background-color: rgb(43, 71, 84);
     

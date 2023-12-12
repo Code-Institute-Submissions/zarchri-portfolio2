@@ -1,80 +1,81 @@
+
 const questions = [
     {
         question: "Which disney princess sings 'Once upon a time'?",
         answers: [
-        {option1: "Cinderella",correct: false},
-        {option2: "Aorora", correct: true},
-        {option3: "snow-white", correct: false},
-        {option4: "Ariel", correct: false},
+        {option: "Cinderella",correct: false},
+        {option: "Aorora", correct: true},
+        {option: "snow-white", correct: false},
+        {option: "Ariel", correct: false},
         ]
     },
 {
     question: "What are Cinderella's stepsisters called?",
-    answer:[
-    {option1: "Cornelia and Amanda", correct: false},
-    {option2: "Betty and annie", correct: false},
-    {option3: "Anastasia och Drizella", correct: true},
-    {option4: "Alicia and Minnie", correct: false},
+    answers:[
+    {option: "Cornelia and Amanda", correct: false},
+    {option: "Betty and annie", correct: false},
+    {option: "Anastasia och Drizella", correct: true},
+    {option: "Alicia and Minnie", correct: false},
     ]
 },
 
 {
     question: "How many brothers does Prince Hans of the Southern Isles have in Frozen?",
-    answer: [
-    {option1: "12", correct: true},
-    {option2: "7", correct: false},
-    {option3: "14", correct: false},
-    {option4: "10", correct: false},
+    answers: [
+    {option: "12", correct: true},
+    {option: "7", correct: false},
+    {option: "14", correct: false},
+    {option: "10", correct: false},
     ]
 },
 
 {
     question: "What does 'Hakuna Matata' mean?",
-    answer: [
-    {option1: "seize the day", correct: false},
-    {option2: "No worries", correct: true},
-    {option3: "Leave it", correct: false},
-    {option4: "Don't care", correct: false},
+    answers: [
+    {option: "seize the day", correct: false},
+    {option: "No worries", correct: true},
+    {option: "Leave it", correct: false},
+    {option: "Don't care", correct: false},
     ]
 },
 
 {
     question: "Who is Mufasa's trusted advisor in The Lion King?",
-    answer: [
-    {option1: "scar", correct: false},
-    {option2: "zazu", correct: true},
-    {option3: "Zarabi", correct: false},
-    {option4: "Rafiki", correct: false},
+    answers: [
+    {option: "scar", correct: false},
+    {option: "zazu", correct: true},
+    {option: "Zarabi", correct: false},
+    {option: "Rafiki", correct: false},
     ]
 },
 
 {
     question: "Who is Goofy's son?",
-    answer: [
-    {option1: "John", correct: false},
-    {option2: "Sebastian", correct: false},
-    {option3: "Peter", correct: false},
-    {option4: "Maximilian", correct: true},
+    answers: [
+    {option: "John", correct: false},
+    {option: "Sebastian", correct: false},
+    {option: "Peter", correct: false},
+    {option: "Maximilian", correct: true},
     ]
 },
 
 {
     question: "What is the name of Sleeping Beauty's prince?",
-    answer: [
-    {option1: "Prins Philip", correct: true},
-    {option2: "Prins Eric", correct: false},
-    {option3: "Prins John", correct: false},
-    {option4: "Prins Alladin", correct: false},
+    answers: [
+    {option: "Prins Philip", correct: true},
+    {option: "Prins Eric", correct: false},
+    {option: "Prins John", correct: false},
+    {option: "Prins Alladin", correct: false},
     ]
 },
 
 {
     question: "Pongo and Perdita originally had how many puppies in 101 Dalmatians?",
-    answer: [
-    {option1: "8", correct: false},
-    {option2: "17", correct: false},
-    {option3: "15", correct: true},
-    {option4: "11", correct: false},
+    answers: [
+    {option: "8", correct: false},
+    {option: "17", correct: false},
+    {option: "15", correct: true},
+    {option: "11", correct: false},
     ]
 },
 
@@ -82,64 +83,67 @@ const questions = [
 
 {
     question: "What were Mickey Mouse's first ever spoken words?",
-    answer: [
-    {option1: "Banana", correct: false},
-    {option2: "Hot dog", correct: true},
-    {option3: "Hello", correct: false},
-    {option4: "pip", correct: false},
+    answers: [
+    {option: "Banana", correct: false},
+    {option: "Hot dog", correct: true},
+    {option: "Hello", correct: false},
+    {option: "pip", correct: false},
     ]
 },
 
 {
     question: "Who is Miguel's idol in Coco?",
-    answer:[
-    {option1: "Rocío Jurado", correct: false},
-    {option2: "Rafael Nadal", correct: false},
-    {option3: "Salvador Dalí", correct: false},
-    {option4: "Ernesto de la Cruz", correct: true},
+    answers:[
+    {option: "Rocío Jurado", correct: false},
+    {option: "Rafael Nadal", correct: false},
+    {option: "Salvador Dalí", correct: false},
+    {option: "Ernesto de la Cruz", correct: true},
     ]
 },
 
 {
     question : "What is the name of the Italian restaurant where Lady and the Tramp share spaghetti?",
-    answer: [
-    {option1: "Tony's restaurant", correct: true},
-    {option2: "Danni's restaurant", correct: false},
-    {option3: "Mike's restaurant", correct: false},
-    {option4: "Ellas's restaurant", correct: false},
+    answers: [
+    {option: "Tony's restaurant", correct: true},
+    {option: "Danni's restaurant", correct: false},
+    {option: "Mike's restaurant", correct: false},
+    {option: "Ellas's restaurant", correct: false},
     ]
 },
 
 {
     question : "What was the name of Simba's evil uncle?",
-    answer: [
-    {option1: "Scar", correct: true},
-    {option2: "Blood", correct: false},
-    {option3: "brain", correct: false},
-    {option4: "diseas", correct: false},
+    answers: [
+    {option: "Scar", correct: true},
+    {option: "Blood", correct: false},
+    {option: "brain", correct: false},
+    {option: "diseas", correct: false},
     ]
 },
 
 {
     question : "Quasimodo was the bell ringer of which famous cathedral?",
-    answer: [
-    {option1: "maria del mar", correct: false},
-    {option2: "Sevilla", correct: false},
-    {option3: "Notre Dame", correct: true},
-    {option4: "Primada", correct: false},
+    answers: [
+    {option: "maria del mar", correct: false},
+    {option: "Sevilla", correct: false},
+    {option: "Notre Dame", correct: true},
+    {option: "Primada", correct: false},
     ]
 },
 {
     question : "What is the name of Pocahontas' raccoon?",
-    answer: [
-    {option1: "Pichu", correct: false},
-    {option2: "Neko", correct: true},
-    {option3: "Stitch", correct: false},
-    {option4: "Figarro", correct: false},
+    answers: [
+    {option: "Pichu", correct: false},
+    {option: "Neko", correct: true},
+    {option: "Stitch", correct: false},
+    {option: "Figarro", correct: false},
     ]
-},
+}
 ];
 
+
+// Inside this function, the DOM is fully loaded
+document.addEventListener('DOMContentLoaded', function () {
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
@@ -150,21 +154,92 @@ let score = 0;
 function startQuiz(){
     currentQuestionIndex = 0;
     score = 0;
-    nextButton.innerHTML = "next";
+    nextButton.innerHTML = "Next";
     showQuestion();
 }
 
 function showQuestion(){
-    let currentQuestion = questions[currentQuestionIndex]
+    resetState();
+    let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + "." + currentQuestion.question;
+
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
-        button.innerHTML = answer.text;
-        button.classList.add("bnt");
-        answerButton.appenChild(button);
+        button.innerHTML = answer.option;
+        button.classList.add("btn");
+        answerButton.appendChild(button);
+        if(answer.correct){
+            button.dataset.correct = answer.correct;
+        }
+        button.addEventListener("click", selectAnswer);
     });
 }
-startQuiz(){
-    
+
+
+function resetState(){
+    nextButton.style.display = "none";
+    while(answerButton.firstChild){
+        answerButton.removeChild(answerButton.firstChild);
+    }
 }
+
+function selectAnswer(e){
+    const selectedBtn = e.target;
+    const isCorrect = selectedBtn.dataset.correct === "true";
+    if(isCorrect){
+        selectedBtn.classList.add("correct");
+        score++;
+    }else{
+        selectedBtn.classList.add("incorrect");
+    }
+    Array.from(answerButton.children).forEach(button => {
+        if(button.dataset.correct === "true"){
+            button.classList.add("correct");
+        }
+        button.disabled = "true";
+    });
+    nextButton.style.display = "block";
+}
+
+function showScore(){
+    resetState();
+    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!;
+    nextButton.innerHTML = "Play Again";
+    nextButton.style.display = "block";
+}
+
+function handleNextButton(){
+    currentQuestionIndex++;
+    if(currentQuestionIndex < questions.length){
+        showQuestion();
+    }else{
+        showScore();
+    }
+}
+
+nextButton.addEventListener("click", () =>{
+    if(currentQuestionIndex < questions.length){
+        handleNextButton();
+        }else{
+            startQuiz();
+            
+        }
+})
+
+
+
+
+
+nextButton.addEventListener("click", () => {
+    if(currentQuestionIndex <questions.length){
+        handleNextButton();
+
+    }else{
+        startQuiz();
+    }
+})
+
+startQuiz();
+
+
