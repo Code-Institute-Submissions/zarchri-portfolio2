@@ -11,19 +11,108 @@ body{
 }
 
 /*Heading */
-.heading  {
+header {
+    
     text-align: center;
+    background-color: #AAC9EE;
     font-family: Marhey, sans-serif;
-    font-size: 2.5rem;
-    color: beige;
+    color: #0A5DC2;
+    padding: 50px;
+    font-size: xx-large;
 }
 
+footer {
+    
+    align-items: center;
+    background-color: #AAC9EE;
+    color: #000;
+    padding: 20px;
+}
+
+#header-container a {
+    font-size: 1rem;
+    font-weight: 900;
+    text-decoration: none;
+    color: #000;
+    animation: slide-in .5s ease-out forwards;
+}
+
+#start,
+  #score-holder {
+      background-color: rgba(218, 228, 232, 0.6);
+      margin: 4rem 1rem 1rem 1rem;
+      padding: 1rem;
+      border-radius: 2rem;
+      animation: slide-in .5s ease-out forwards;
+  }
+#start>h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem .5rem 4rem .5rem;
+    color: rgb(255, 255, 255);
+}
+
+.your-name {
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+/* Add margin to the icon to look nicer */
+.your-name>i {
+    margin-right: .6rem;
+    margin-top: 0.3rem;
+}
+
+/* Style the input */
+#name-input {
+    height: 2.5rem;
+    width: 100%;
+    margin: .1rem 0;
+    padding: .3rem;
+    border: 1px solid rgb(223, 230, 235);
+    border-radius: .6rem;
+    background-color: rgba(223, 230, 235, .6);
+}
+
+/* Style all the buttons to look similar */
+.btn {
+    height: 2rem;
+    width: 50%;
+    font-weight: 300;
+    background-color: rgb(20, 35, 90);
+    border: 1px solid rgb(223, 230, 235);
+    color: rgb(223, 230, 235);
+    border-radius: .5rem;
+    display: block;
+    margin: .8rem auto 1rem auto;
+}
+
+/* Make some space between the icon and the text */
+.btn i {
+    margin-left: .5rem;
+}
+
+#score-holder {
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem;
+}
+
+ #copyright{
+    background-color: #AAC9EE;
+    text-align: center;
+    border-radius: 2px solid #bbbb;
+       
+        
+    }
  
 
 .question-area {
     border: 1px solid black;
     margin: 100px auto 0;
-    background-color: #bbbbbb;
+    background-color: #0A5DC2;
     width: 90%;
     max-width:  600px;
     border-radius: 10px;
@@ -36,7 +125,7 @@ body{
       font-size: 25px;
       color: black;
       font-weight: 600;
-      border-bottom: 1px solid #bbbbbb;
+      border-bottom: 1px solid #AAC9EE;
       padding-bottom: 30px;
   }
 .quiz{
@@ -57,7 +146,7 @@ body{
 }
 
 .btn{
-    background: #bbbbbb;
+    background: #AAC9EE;
     color: black;
     font-weight: 500;
     width: 100%;
@@ -74,7 +163,7 @@ body{
     background: #1899CD;
 }
 .incorrect{
-    background: #FC0505;
+    background:  #F66565;
 }
 
 .btn:hover:not(disabled){
@@ -99,21 +188,12 @@ body{
     display: none;
 }
 
-.logo{
-    text-align: center;
-}
+
 
 
 
   /* General design to apply to the quiz */
-  body {
-    /*The image had been taken https: //pixabay.com/photos/cosmos-milky-way-night-sky-stars-1853491/*/
-    background: url(../images/disneypicture.jpg)  left 100% bottom 100%/100%;
-    background-repeat: repeat;
-    background-color: rgb(43, 71, 84);
-    
-    font-family: 'Marhey', sans-serif;
-}
+ 
 
 
  
