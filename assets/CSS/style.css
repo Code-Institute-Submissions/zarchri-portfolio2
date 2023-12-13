@@ -21,9 +21,16 @@ header {
     font-size: xx-large;
 }
 
+main{
+    width: 90vw;
+    padding: 30px 20px;
+    margin: 0 auto;
+    min-height: calc(100vh -232px - 76px);
+}
+
 footer {
     
-    align-items: center;
+    text-align: center;
     background-color: #AAC9EE;
     color: #000;
     padding: 20px;
@@ -78,15 +85,13 @@ footer {
 
 /* Style all the buttons to look similar */
 .btn {
-    height: 2rem;
-    width: 50%;
-    font-weight: 300;
-    background-color: rgb(20, 35, 90);
-    border: 1px solid rgb(223, 230, 235);
-    color: rgb(223, 230, 235);
-    border-radius: .5rem;
-    display: block;
-    margin: .8rem auto 1rem auto;
+    border: 1px solid black;
+    margin: 100px auto 0;
+    background-color: #0A5DC2;
+    width: 90%;
+    max-width:  600px;
+    border-radius: 10px;
+    padding: 30px;
 }
 
 /* Make some space between the icon and the text */
