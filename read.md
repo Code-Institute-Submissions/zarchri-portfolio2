@@ -1,12 +1,12 @@
-# Disnes¨Challenge
+# Disney's Challenge
 
-![Disney´s challenge shown on a variety of screen sizes](assets/images/Skärmklipp.PNG)
+![Disney´s challenge shown on a variety of screen sizes](assets/images/Skärmklipp-responsive.PNG)
 
-Visit the deployed site: [Disney¨s challenge](https://8000-zarchri-portfolio2-jkqx23rmd4c.ws-eu106.gitpod.io/)
+Visit the deployed site: [Disney¨s challenge](https://8000-zarchri-portfolio2-jkqx23rmd4c.ws-eu107.gitpod.io/index.html?name-input=Zarah+christenson)
 
-Test your knowledge in Disnes character and get the quiz ready!
+Test your knowledge in Disney's character and get the quiz ready!
 
-The most of people in the world have been raised in disneys movies and character and remeber most of them. This is a quis for 3-7 years old.
+The most of people in the world have been raised in disneys movies and character and remember most of them. This is a quis for 5-9 years old.
 
 [YouGov](https://yougov.co.uk/topics/lifestyle/explore/activity/Pub_quizzes) show that 98% of people surveyed have heard of a pub quiz, and are rated as the 19th most popular social activity.
 
@@ -65,10 +65,10 @@ During lockdowns pub quizzes remained popular - they just changed format to beco
 
 #### First Time Visitor Goals
 
-* I want give the kids in the lower age a fun folorful page with the questions they can answer for
+* I want give the kids in the lower age a fun colorful page with the questions they can answer for
 * I want the site to be responsive to my device.
 * I want the site to be easy to navigate.
-* I ant the page will be good for kids who not have leran to read yet
+* I want the page will be good for kids who are in the begining in the school and theys reading.
 
 #### Returning Visitor Goals
 
@@ -107,9 +107,9 @@ I chooce the type because I want a type who are very similar "disneys´logo"
 
 ![Almendra Font Example](assets/images/Skärmklipp%20titel.PNG)
 
-* For the body of the page I have used the google font [Quicksand](https://fonts.google.com/specimen/Quicksand?preview.text=The%20Quiz%20Arms%20THE%20QUIZ%20ARMS&preview.text_type=custom&query=quicksand). QuickSand is a sans-serif font which has lovely clean lines. I have chosen to use a sans-serif font for the body of the page as studies have found that sans-serif fonts are generally more legible to read on a screen.
+same fonts are used in the rest och the pages because I want same textdesign in all my work
 
-![Quicksand Font Example](documentation/quicksand.webp)
+![Marhey ewample](assets/images/Skärmklipp-textfont.PNG)
 
 ### Imagery
 
@@ -126,7 +126,7 @@ Wireframes were created for mobile, tablet and desktop using balsamiq.
 
 ### Features
 
-The website is comprised of a home page, a games page, a high scores page, a 404 error page & a 500 error page.
+The website is comprised of a home page, a games page, a high scores page, a 404 error page.
 
 All Pages on the website are responsive and have:
 
@@ -135,7 +135,7 @@ All Pages on the website are responsive and have:
   ![favicon](documentation/favicon-image.webp)
 
 * The title of the site at the top of every page. This title also acts as a link back to the home page.
-  ![The Quiz Arms Title](documentation/the-quiz-arms-banner.png)
+  [Disney quiz](assets/images/Skärmklipp%20titel.PNG)
 
 * Every page will display a custom cursor when on a button. This feature is not available on mobile touch devices.
 
@@ -143,7 +143,7 @@ All Pages on the website are responsive and have:
 
 #### The Home Page
 
-The home page of The Quiz Arms displays the sites name as a title and then a container which holds some welcome text, including alerting the users that they can navigate back to the home page at any time by clicking on the page name. Below this are three buttons, how to play, play and high scores.
+The home page of The Disney quiz displays the sites name as a title and then a container which holds some welcome text, including alerting the users that they can navigate back to the home page at any time by clicking on the page name. Below this are three buttons, h play, how to play and one button for sound.
 
 ![Home page image](documentation/features/index.png)
 
@@ -159,7 +159,6 @@ The game page displays the sites name as a title. This also acts as a link back 
 
 ![Image of the game page difficulty selection buttons](documentation/features/difficulty.png)
 
-Once the user has selected their difficulty they will then be shown the quiz area. The quiz area contains the question and the 4  answer choices.
 
 when a user selects an answer, they will then be prevented from selecting any more answers. The quiz area border and the button selected will change styles depending on whether the answer selected was correct or incorrect. If the answer selected was correct, the score counter will add 10 to the score total. When the user clicks the next button the question no counter will increase by 1. If the user selects the wrong answer, the button selected will display red, and the correct answer will display as green.
 
@@ -179,7 +178,7 @@ The high scores page displays the sites name as a title. This also acts as a lin
 
 The 404 error page displays the sites name as a title. This also acts as a link back to the home page. Within the page container there is a sorry message explaining to the user that there has been an error directing them to the page they were looking for. The user is then given a choice of three buttons to redirect them to other pages on the site, the home page, the games page and the high scores page.
 
-![Error page image](documentation/features/404.png)
+![Error page image](404.html)
 
 #### The 500 Error Page
 
@@ -226,7 +225,7 @@ HTML, CSS, Javascript
 
 * [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 
-* [Git](https://git-scm.com/) - For version control.
+
 
 * [Github](https://github.com/) - To save and store the files for the website.
 

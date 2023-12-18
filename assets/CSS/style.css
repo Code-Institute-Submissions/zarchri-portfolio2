@@ -6,8 +6,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html{
+    height: 100%;
+}
 body{
-    background: #bbbbbb
+    background: url(../images/disneypicture.jpg) repeat;
+    background-repeat: repeat;
+    background-color: rgb(43, 71, 84);
+    font-family: 'Marhey', sans-serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 /*Heading */
@@ -16,9 +27,11 @@ header {
     text-align: center;
     background-color: #AAC9EE;
     font-family: Marhey, sans-serif;
-    color: #0A5DC2;
-    padding: 50px;
+    color: #000;
+    padding: 30px;
     font-size: xx-large;
+    border-style: ridge;
+    border-color: #000;
 }
 
 main{
@@ -34,6 +47,9 @@ footer {
     background-color: #AAC9EE;
     color: #000;
     padding: 20px;
+    border-style: ridge;
+    border-color: #000;
+    margin-top: auto;
 }
 
 #header-container a {
@@ -44,6 +60,18 @@ footer {
     animation: slide-in .5s ease-out forwards;
 }
 
+
+#welcome-area{
+    border: 1px solid black;
+    margin: 100px auto 0;
+    background-color: #AAC9EE;
+    width: 90%;
+    max-width:  600px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    font-size: x-large;
+}
 #start,
   #score-holder {
       background-color: rgba(218, 228, 232, 0.6);
@@ -105,19 +133,25 @@ footer {
     padding: 1.2rem;
 }
 
- #copyright{
+ 
+
+#game-information{
+    border: 1px solid black;
+    margin: 100px auto 0;
     background-color: #AAC9EE;
-    text-align: center;
-    border-radius: 2px solid #bbbb;
-       
-        
-    }
+    width: 90%;
+    max-width:  600px;
+    border-radius: 10px;
+    padding: 30px;
+    font-size: x-large;
+    animation: slide-right 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
  
 
 .question-area {
     border: 1px solid black;
     margin: 100px auto 0;
-    background-color: #0A5DC2;
+    background-color: #AAC9EE;
     width: 90%;
     max-width:  600px;
     border-radius: 10px;
@@ -130,7 +164,7 @@ footer {
       font-size: 25px;
       color: black;
       font-weight: 600;
-      border-bottom: 1px solid #AAC9EE;
+      border-bottom: 1px solid #fff;
       padding-bottom: 30px;
   }
 .quiz{
@@ -193,11 +227,59 @@ footer {
     display: none;
 }
 
+#back-btn{
+    background: #000;
+    color: #bbbbbb;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+  /* The 404 error page */
+  #error-page {
+    background-color: rgba(218, 228, 232, 0.9);
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 2rem 1.5rem;
+    animation: slide-right 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#error-page h1 {
+    padding-bottom: 1rem;
+    text-align: center;
+
+}
+
+#error-page p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#error-page a {
+    color: inherit;
+    font-size: 1.5rem;
+    font-style: oblique;
+}
 
 
+ /* Media query: Tablets and larger (992px and bigger)*/
+ @media screen and (min-width: 992px) {
+    footer {
+    
+        text-align: center;
+        background-color: #AAC9EE;
+        color: #000;
+        padding: 20px;
+        border-style: ridge;
+        border-color: #000;
+    }
 
-
-  /* General design to apply to the quiz */
+ }
  
 
 

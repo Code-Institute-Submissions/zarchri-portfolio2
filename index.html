@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--font awesome and googlefonts-->
+    <link rel="shortcut icon" type="image/png" href="assets/images/toplogo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -25,26 +26,29 @@
     </header>
     
     <main>
-        <section id="welcome-area">Welcome to my Disney quiz!
-            <label for="name-input" class="Your Name">Enter your name</label>
+        <form name="formData" action="index.html" method="get"
+        <section id="welcome-area" >Welcome to my Disney quiz!
+            <br>
+            <label for="name-input" class="Your Name">Enter your name for play!</label>
             <br />
-            <input type="text" placeholder="Enter your Name" id="name-input" name="name-input" />
+            <input type="text" placeholder="Enter your Name" id="name-input" name="name-input" value=""required/>
             <br />
             <div id="btn-container">
                 
-                <button "id="start-btn"
+                <button id="start-btn"
                  class="btn" data-type="startBtn"
                  class="btn"
                  onclick="document.location='game.html'"
                 >START</a></button>
-                <button id="info-btn"
-                 class="btn">INFO</button>
-                <button id="sound-btn" class="btn"
+                <button id="info-btn" class="btn"
                 onclick="document.location='info.html'"
-                >SOUND</button>
+                 >INFO</button>
+                <button id="sound-btn" class="btn"
+                
+                >SOUND<i class="fa-solid fa-volume-xmark"></i></button>
             </div>
             </div>
-    
+        </form>
         
         </section>
     </main>
