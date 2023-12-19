@@ -19,40 +19,38 @@
 <body>
     <header>
         <div id="Header-container">
-            <a href="index.html"
+            <a href="index.html">
             <h2 id="logo">Disney challenge</h2>
-        </a>
+            </a>
         </div>
     </header>
-    
+
     <main>
-        <form name="formData" action="index.html" method="get"
-        <section id="welcome-area" >Welcome to my Disney quiz!
+       
+             <div id="welcome-area">Welcome to my Disney quiz!
             <br>
+            
             <label for="name-input" class="Your Name">Enter your name for play!</label>
-            <br />
-            <input type="text" placeholder="Enter your Name" id="name-input" name="name-input" value=""required/>
-            <br />
+            <br>
+            <input type="text" placeholder="Enter your Name" id="name-input" name="name-input" value="" required >
+            <br>
             <div id="btn-container">
-                
-                <button id="start-btn"
-                 class="btn" data-type="startBtn"
-                 class="btn"
-                 onclick="document.location='game.html'"
-                >START</a></button>
-                <button id="info-btn" class="btn"
-                onclick="document.location='info.html'"
-                 >INFO</button>
-                <button id="sound-btn" class="btn"
-                
-                >SOUND<i class="fa-solid fa-volume-xmark"></i></button>
+
+                <button id="start-btn" class="btn" data-type="startBtn" 
+                    onclick="document.location='game.html'">START</button>
+                <button id="info-btn" class="btn" onclick="document.location='info.html'">INFO</button>
+                <button id="sound-btn" class="btn" >sound
+              <audio id="sound">
+                <source src="assets/sounds/soundforthebutton.mp3">
+              </audio>
+              </button>
             </div>
             </div>
-        </form>
         
-        </section>
+        
+
     </main>
-    
+
 
     <script src="assets/js/script.js"></script>
     <footer>

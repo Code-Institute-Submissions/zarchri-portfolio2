@@ -115,14 +115,6 @@ same fonts are used in the rest och the pages because I want same textdesign in 
 
 As the website is called Disney challenge, I wanted to use an image for the page background of familar disney character that the parcipant recognice.
 
-### Wireframes
-
-Wireframes were created for mobile, tablet and desktop using balsamiq.
-
-![Home Page](documentation/wireframes/homewireframe.webp)
-![Difficulty Page](documentation/wireframes/difficultywireframe.webp)
-![Game Page](documentation/wireframes/gamewireframe.webp)
-![High Scores Page](documentation/wireframes/highscorewireframe.webp)
 
 ### Features
 
@@ -132,10 +124,10 @@ All Pages on the website are responsive and have:
 
 * A favicon in the browser tab.
 
-  ![favicon](documentation/favicon-image.webp)
+  ![favicon](assets/images/favicon/toplogo.png)
 
 * The title of the site at the top of every page. This title also acts as a link back to the home page.
-  [Disney quiz](assets/images/Skärmklipp%20titel.PNG)
+  ![Disney quiz](assets/images/Skärmklipp-titel.PNG)
 
 * Every page will display a custom cursor when on a button. This feature is not available on mobile touch devices.
 
@@ -143,57 +135,52 @@ All Pages on the website are responsive and have:
 
 #### The Home Page
 
-The home page of The Disney quiz displays the sites name as a title and then a container which holds some welcome text, including alerting the users that they can navigate back to the home page at any time by clicking on the page name. Below this are three buttons, h play, how to play and one button for sound.
+The home page of The Disney quiz displays the sites name as a title and then a container which holds some welcome text, including alerting the users that they can navigate back to the home page at any time by clicking on the page name. Below this are three buttons: play, how to play and one button for sound.
 
-![Home page image](documentation/features/index.png)
+![Home page image](assets/images/Skärmklipp-homepage.PNG)
 
 The how to play  button opens a modal showing the user how to play the game. The modal contains a close button which will close the modal, and show the home page again.
 
-![Modal open image](documentation/features/modal.png)
+![Modal open image](assets/images/Skärmklipp-infopage.PNG)
 
-The play button will redirect the user to the game page to select the difficulty of their quiz and the high Scores button redirects the user to the high scores page.
+The play button will redirect the user to the game page and the first question will be seen
 
 #### The Game Page
 
-The game page displays the sites name as a title. This also acts as a link back to the home page. Initially on the game page you will be shown a container with three buttons to select the difficulty of the quiz the user can choose from.
+The game page displays the sites name as a title. This also acts as a link back to the home page. In a container can you see the questions just lick on that answer you think it is correct, if it turn in blue have you chooce correct answer and if it turns in lightred it is incorrect answer if you answer incorrect you will see what answer who it is correct in blue. when you have answer correct or incorrect answer a button it stands "next" will be shown on, puch on that button and next button will arrived in the screen.
 
-![Image of the game page difficulty selection buttons](documentation/features/difficulty.png)
+![Image of the game page ](assets/images/skärmklipp-gamepage.PNG)
 
 
-when a user selects an answer, they will then be prevented from selecting any more answers. The quiz area border and the button selected will change styles depending on whether the answer selected was correct or incorrect. If the answer selected was correct, the score counter will add 10 to the score total. When the user clicks the next button the question no counter will increase by 1. If the user selects the wrong answer, the button selected will display red, and the correct answer will display as green.
 
-![Image of quiz area](documentation/features/quiz.png)
+![Image of quiz area](assets/images/Skärmklipp-rightanswer.PNG)
 
-Once a user has answered the 15 questions they will be taken to the end of the game which will allow them to enter their team name and submit it to be entered onto the high scores page if it is in the top 10 scores. The submit button is disabled by default to prevent the user from submitting without a team name. This is made clear to the user as the cursor will show not allowed when hovered over the submit button.
 
-![End of game](documentation/features/end.png)
+![wrong answer](assets/images/Skärmklipp-wronganswer.PNG)
 
-#### The High Scores Page
+###end of the game and the score
 
-The high scores page displays the sites name as a title. This also acts as a link back to the home page. The page then displays the high scores recorded - showing the team name a user chooses and their score. The high scores page will list the top ten scores recorded. Underneath the high scores are two buttons to allow the user to play again or be redirected to the home page.
+When the question are finnish the user will directly arrived to the page that  the game telss the game och finnish and what score the user have.
+there are also two buttons, on there it stands "Play again" and one button there it stands "back to homepage"
 
-![High Scores Page Image](documentation/features/highscores.png)
+![ Scores Page Image](documentation/features/highscores.png)
 
 #### The 404 Error Page
 
 The 404 error page displays the sites name as a title. This also acts as a link back to the home page. Within the page container there is a sorry message explaining to the user that there has been an error directing them to the page they were looking for. The user is then given a choice of three buttons to redirect them to other pages on the site, the home page, the games page and the high scores page.
 
-![Error page image](404.html)
+![Error page image](assets/images/Skärmklipp-404errorpage.PNG)
 
-#### The 500 Error Page
 
-The 500 error page displays the sites names as a title, which also acts as a link back to the home page. Within the container is an error message that tells the user sorry there seems to be an issue retrieving the quiz data. Two buttons for the home page and the high scores page are below. I did not add the play game button here, as a user will been directed to this page if there is an error calling the API.
-
-![500 Error Page](documentation/features/500.png)
 
 #### Future Implementations
 
 In future implementations I would like to:
 
-1. Give users the option to select the amount of questions in their quiz.
-2. Look into making the quiz a multiplayer game, so that it could be played by teams, which would make the quiz even more like a pub quiz.
-3. Create a back end database to enable me to store scores which would then allow you to see how you scored against other players.
-4. Look further into the accessibility for people with colour blindness, perhaps by adding symbols such as a tick or cross next to the answer when they are checked.
+1. Give users the option to select different difficult stages.
+2. more sound and picture
+3. The user can chooce a charcter they want to be.
+4. Add a voice who read the question and it would be picture in the different options that will be easier for smaller kids for play
 
 ### Accessibility
 

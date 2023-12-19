@@ -1,6 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Marhey:wght@300&family=Oswald:wght@300;400;500;600;700&family=Satisfy&display=swap');
 
+
+element.style{
+    text-decoration: none;
+    color: black;
+
+}
 * {
     padding: 0;
     margin: 0;
@@ -53,7 +59,7 @@ footer {
 }
 
 #header-container a {
-    font-size: 1rem;
+    font-size: 0.5rem;
     font-weight: 900;
     text-decoration: none;
     color: #000;
@@ -240,7 +246,7 @@ footer {
     display: none;
 }
 
-  /* The 404 error page */
+  /* The 404 error-page */
   #error-page {
     background-color: rgba(218, 228, 232, 0.9);
     padding: 2rem;
