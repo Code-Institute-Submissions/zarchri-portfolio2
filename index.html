@@ -20,34 +20,33 @@
     <header>
         <div id="Header-container">
             <a href="index.html">
-            <h2 id="logo">Disney challenge</h2>
+                <h2 id="logo">Disney challenge</h2>
             </a>
         </div>
     </header>
 
     <main>
-       
-             <div id="welcome-area">Welcome to my Disney quiz!
+<form name="frmDataEntry" action="game.html" method="get">
+        <div id="welcome-area">Welcome to my Disney quiz!
             <br>
-            
+
             <label for="name-input" class="Your Name">Enter your name for play!</label>
             <br>
-            <input type="text" placeholder="Enter your Name" id="name-input" name="name-input" value="" required >
+            <input type="text" placeholder="Enter your Name" id="name-input" name="name-input" required>
+            <input type="submit" value="START" class="btn">
+        </form>
             <br>
             <div id="btn-container">
 
-                <button id="start-btn" class="btn" data-type="startBtn" 
-                    onclick="document.location='game.html'">START</button>
+                
                 <button id="info-btn" class="btn" onclick="document.location='info.html'">INFO</button>
-                <button id="sound-btn" class="btn" >SOUND
-              <audio id="sound">
-                <source src="assets/sounds/soundforthebutton.mp3" type="audio/mpeg"/>
-              </audio>
-              </button>
+             
+
+
             </div>
-            </div>
-        
-        
+        </div>
+
+    
 
     </main>
 

@@ -209,7 +209,7 @@ function selectAnswer(e){
 //when the game are finnished and the user want play again
 function showScore(){
     resetState();
-    questionElement.innerHTML = 'You scored ${score} out of ${questions.length}!';
+    questionElement.innerHTML = ` great work (name) You scored ${score} out of ${questions.length}!`;
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
     backButton.innerHTML = "back to homepage";
@@ -267,6 +267,16 @@ function playPauseAudio() {
  * Play sound when a btn is clicked
  */
 
-window.addEventListener('click', () =>{
-document.getElementById("sound").play();
-});
+var audio= getElementById('sound');
+var playPauseAudio = getElementById('playPauseBTN');
+var count=0;
+
+function playPause(){
+    if(count == 0){
+        count = 1;
+        audio.play();
+    }else{
+        count = 0;
+        audio.pause();
+    }
+}
