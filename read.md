@@ -147,29 +147,29 @@ The play button will redirect the user to the game page and the first question w
 
 #### The Game Page
 
-The game page displays the sites name as a title. This also acts as a link back to the home page. In a container can you see the questions just lick on that answer you think it is correct, if it turn in blue have you chooce correct answer and if it turns in lightred it is incorrect answer if you answer incorrect you will see what answer who it is correct in blue. when you have answer correct or incorrect answer a button it stands "next" will be shown on, puch on that button and next button will arrived in the screen.
+The game page displays the sites name as a title. This also acts as a link back to the home page. In a container can you see the questions just lick on that answer you think it is correct, if it turn in blue have you chooce correct answer and if it turns in lightred it is incorrect answer if you answer incorrect you will see what answer who it is correct in blue. when you have answer correct or incorrect answer a button it stands "next" will be shown on, push on that button and next button will arrived in the screen.
 
 ![Image of the game page ](assets/images/skärmklipp-gamepage.PNG)
 
 
 
-![Image of quiz area](assets/images/Skärmklipp-rightanswer.PNG)
+![Image of quiz area](assets/images/skärmklipp-rightanswer.PNG)
 
 
-![wrong answer](assets/images/Skärmklipp-wronganswer.PNG)
+![wrong answer](assets/images/skärmklipp-wronganswer.PNG)
 
 ###end of the game and the score
 
-When the question are finnish the user will directly arrived to the page that  the game telss the game och finnish and what score the user have.
-there are also two buttons, on there it stands "Play again" and one button there it stands "back to homepage"
+When the question are finnish the user will directly arrived to the page that tells the game are finnish and what score the user have.
+there are also one buttons, there it stands "Play again".
 
-![ Scores Page Image](documentation/features/highscores.png)
+![ Scores Page Image](assets/images/Skärmklipp%20score%20resultat.PNG)
 
 #### The 404 Error Page
 
-The 404 error page displays the sites name as a title. This also acts as a link back to the home page. Within the page container there is a sorry message explaining to the user that there has been an error directing them to the page they were looking for. The user is then given a choice of three buttons to redirect them to other pages on the site, the home page, the games page and the high scores page.
+The 404 error page displays the sites name as a title. This also acts as a link back to the home page. Within the page container there is a sorry message explaining to the user that there has been an error directing them to the page they were looking for. 
 
-![Error page image](assets/images/Skärmklipp-404errorpage.PNG)
+![Error page image](assets/images/skärmklipp-404errorpage.PNG)
 
 
 
@@ -184,11 +184,11 @@ In future implementations I would like to:
 
 ### Accessibility
 
-I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
+I have been mindful during coding to ensure that the website is as accessible for  younger user in the age 5-9 as possible. This has been have achieved by:
 
 * Using semantic HTML.
 * Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
-* Choosing a sans serif font for the site - these fonts are suitable for people with dyslexia.
+* Choosing a sans serif font for the site - these fonts are easyer to read for people in all ages.
 * Ensuring that there is a sufficient colour contrast throughout the site.
 
 ![contrast button](documentation/contrast-btn.png) ![Contrast button hover](documentation/contrast-btn-hover.png) ![contrast text](documentation/contrast-text.png)

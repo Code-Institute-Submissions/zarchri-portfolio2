@@ -209,11 +209,10 @@ function selectAnswer(e){
 //when the game are finnished and the user want play again
 function showScore(){
     resetState();
-    questionElement.innerHTML = ` great work (name) You scored ${score} out of ${questions.length}!`;
+    questionElement.innerHTML =  `You scored ${score} out of ${questions.length}!`;
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
-    backButton.innerHTML = "back to homepage";
-    backButton.style.display = "block";
+   
    
 }
 
@@ -239,14 +238,7 @@ nextButton.addEventListener("click", () =>{
 
 
 
-nextButton.addEventListener("click", () => {
-    if(currentQuestionIndex <questions.length){
-        handleNextButton();
 
-    }else{
-        startQuiz();
-    }
-})
 
 startQuiz()
 });
