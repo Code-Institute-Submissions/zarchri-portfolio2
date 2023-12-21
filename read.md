@@ -36,8 +36,7 @@ The most of the people in the world have been raised in disneys movies and chara
 * [Deployment & Local Development](#deployment--local-development)
   * [Deployment](#deployment)
   * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
+  
 
 * [Testing](#testing)
   * [Solved Bugs](#solved-bugs)
@@ -50,7 +49,7 @@ The most of the people in the world have been raised in disneys movies and chara
   * [Acknowledgments](#acknowledgments)
 
 - - -
-![Disney challenge banner](assets/images/skärmklipp-titel.PNG)
+![Disney challenge homepage](assets/images/skärmklipp-homepage.PNG)
 
 ## User Experience (UX)
 
@@ -232,6 +231,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 | 3 | I did not get the required field working | After guidance from tutor support, I did not get the submit button in the form, so it worked fine when I changed that |
 
 ### Known Bugs
+No known bugs what I can see.
 
 
 ## Credits
@@ -240,11 +240,12 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 * I used [this You Tube tutorial](https://www.youtube.com/watch?v=PBcqGxrr9g8) to learn how to create a modal for the quiz section
 
-Accept the video from YouTube. I have read about W3Schools and watched the lessons at the Code Institute.
+Accept the video from YouTube. I have read about W3Schools and watched the lessons at the Code Institute and what I have learned me in the first course.
 
 ### Content
 
 All questions for my site were pulled from [Parade](https://parade.com/1041219/alexandra-hurtado/disney-trivia/)  .
+BUt only the wuestion and the correct answer, the other options I write myself.
 
 All other content for the site, such as introduction messages and instructions, was written by myself.
 
