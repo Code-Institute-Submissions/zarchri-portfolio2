@@ -40,13 +40,16 @@ header {
     border-color: #000;
 }
 
+
+
 main{
     width: 90vw;
     padding: 30px 20px;
     margin: 0 auto;
-    min-height: calc(100vh -232px - 76px);
+    min-height: calc(100vh -232px-76px);
 }
 
+/*footer*/
 footer {
     
     text-align: center;
@@ -66,7 +69,7 @@ footer {
     animation: slide-in .5s ease-out forwards;
 }
 
-
+/*First the user will see*/
 #welcome-area{
     border: 1px solid black;
     margin: 100px auto 0;
@@ -140,7 +143,7 @@ footer {
 }
 
  
-
+/*information about the game*/
 #game-information{
     border: 1px solid black;
     margin: 100px auto 0;
@@ -206,6 +209,7 @@ footer {
     transition: none;
 }
 
+/*How the user know if they have answer correct or not*/
 .correct{
     background: #1899CD;
 }
@@ -235,18 +239,7 @@ footer {
     display: none;
 }
 
-#back-btn{
-    background: #000;
-    color: #bbbbbb;
-    font-weight: 500;
-    width: 150px;
-    border: 0;
-    padding: 10px;
-    margin: 20px auto 0;
-    border-radius: 4px;
-    cursor: pointer;
-    display: none;
-}
+
 
   /* The 404 error-page */
   #error-page {

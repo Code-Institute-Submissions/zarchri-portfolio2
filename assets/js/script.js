@@ -1,7 +1,7 @@
-
+// jshint esversion: 6
 const questions = [
     {
-        question: "Which disney princess sings 'Once upon a time'?",
+        question: "Which Disney princess sings 'Once Upon a time'?",
         answers: [
         {option: "Cinderella",correct: false},
         {option: "Aorora", correct: true},
@@ -62,10 +62,10 @@ const questions = [
 {
     question: "What is the name of Sleeping Beauty's prince?",
     answers: [
-    {option: "Prins Philip", correct: true},
-    {option: "Prins Eric", correct: false},
-    {option: "Prins John", correct: false},
-    {option: "Prins Alladin", correct: false},
+    {option: "Prince Charming", correct: true},
+    {option: "Prince Dreamy", correct: false},
+    {option: "Prince Handsome", correct: false},
+    {option: "Prince Alladin", correct: false},
     ]
 },
 
@@ -82,7 +82,7 @@ const questions = [
 
 
 {
-    question: "What were Mickey Mouse's first ever spoken words?",
+    question: "What were Mickey Mouse's first-ever spoken words?",
     answers: [
     {option: "Banana", correct: false},
     {option: "Hot dog", correct: true},
@@ -232,43 +232,21 @@ nextButton.addEventListener("click", () =>{
             startQuiz();
             
         }
-})
-
-
-
-
-
-
-
-startQuiz()
 });
 
 
-function playPauseAudio() {
-    const soundBtn = document.getElementById('sound-btn');
-    if (welcomeAudio.paused) {
-        welcomeAudio.play();
-        soundBtn.innerHTML = `SOUND <i class="fa-solid fa-volume-high"></i>`;
-    } else {
-        welcomeAudio.pause();
-        soundBtn.innerHTML = `SOUND <i class="fa-solid fa-volume-xmark"></i>`;
-    }
-}
 
-/**
- * Play sound when a btn is clicked
- */
 
-var audio= getElementById('sound');
-var playPauseAudio = getElementById('playPauseBTN');
-var count=0;
 
-function playPause(){
-    if(count == 0){
-        count = 1;
-        audio.play();
-    }else{
-        count = 0;
-        audio.pause();
-    }
-}
+
+
+startQuiz();
+});
+
+
+
+
+
+
+
+

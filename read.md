@@ -1,22 +1,15 @@
 # Disney's Challenge
 
-![Disney´s challenge shown on a variety of screen sizes](assets/images/Skärmklipp-responsive.PNG)
+![Disney´s challenge shown on a variety of screen sizes](assets/images/skärmklipp-responsive.PNG)
 
 Visit the deployed site: [Disney¨s challenge](https://8000-zarchri-portfolio2-jkqx23rmd4c.ws-eu107.gitpod.io/index.html?name-input=Zarah+christenson)
 
-Test your knowledge in Disney's character and get the quiz ready!
+Test your knowledge of Disney's characters and get the quiz ready!
 
-The most of people in the world have been raised in disneys movies and character and remember most of them. This is a quis for 5-9 years old.
+The most of the people in the world have been raised in disneys movies and character and remember most of them. This is a quiz for 5–9 years old.
 
-[YouGov](https://yougov.co.uk/topics/lifestyle/explore/activity/Pub_quizzes) show that 98% of people surveyed have heard of a pub quiz, and are rated as the 19th most popular social activity.
 
-During lockdowns pub quizzes remained popular - they just changed format to become virtual. This gave me the idea of creating a quiz site that would feel like a pub quiz, where users could play on their own to improve their general knowledge anywhere and at any time.
 
-![GitHub last commit](https://img.shields.io/github/last-commit/kera-cudmore/TheQuizArms?color=red&style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/kera-cudmore/TheQuizArms?color=orange&style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/kera-cudmore/TheQuizArms?color=yellow&style=for-the-badge)
-![GitHub top language](https://img.shields.io/github/languages/top/kera-cudmore/TheQuizArms?color=green&style=for-the-badge)
-![W3C Validation](https://img.shields.io/w3c-validation/html?logoColor=blue&style=for-the-badge&targetUrl=https%3A%2F%2Fkera-cudmore.github.io%2FTheQuizArms%2F)
 
 ## CONTENTS
 
@@ -38,7 +31,7 @@ During lockdowns pub quizzes remained popular - they just changed format to beco
 
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
-  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+ 
 
 * [Deployment & Local Development](#deployment--local-development)
   * [Deployment](#deployment)
@@ -57,27 +50,21 @@ During lockdowns pub quizzes remained popular - they just changed format to beco
   * [Acknowledgments](#acknowledgments)
 
 - - -
-![The Quiz Arms Banner](documentation/the-quiz-arms-banner.png)
+![Disney challenge banner](assets/images/skärmklipp-titel.PNG)
 
 ## User Experience (UX)
 
 ### User Stories
 
-#### First Time Visitor Goals
+#### Visitor Goals
 
-* I want give the kids in the lower age a fun colorful page with the questions they can answer for
-* I want the site to be responsive to my device.
+* I want to give the kids in the lower age group a fun, colorful page with the questions they can answer.
+* I want the site to be responsive to different devices.
 * I want the site to be easy to navigate.
-* I want the page will be good for kids who are in the begining in the school and theys reading.
+* I want the page to be good for kids who are at the beginning of school and they reading.
 
-#### Returning Visitor Goals
 
-* I want to be able to choose a level of difficulty that I feel is appropriate for me, based on my experience from my first visit to the site.
 
-#### Frequent Visitor Goals
-
-* I want to be able to adjust the difficulty level to keep improving my knowledge.
-* I want to be able to log my high scores to see how I am performing.
 
 - - -
 
@@ -85,40 +72,38 @@ During lockdowns pub quizzes remained popular - they just changed format to beco
 
 ### Colour Scheme
 
-I wanted have colorful and exciting background for the childen would thinks it fun so I chooce a picture with may of the known character in Disney. 
-In the quiz I have hold it simple with the colors
+I wanted to have a colorful and exciting background, so the children would think it was fun, so I chose a picture with many of the known characters from Disney. 
+In the quiz, I have kept it simple with the colors
 
 
-In my css file I have used variables to declare colours, and then used these throughout the css file. 
+In my CSS file, I have used variables to declare colors and then used these throughout the CSS file
 
-* I have used `#f5f5dc` & `#000000` as the primary and secondary colours used for the sites text.
+* * I have used `#AAC9EE` & `#000000` for the background color and the color of the text.
 * I have used `#1899CD` for right answer
-* and #FC05BC for the wrong answers.
+* and #F66565 for the wrong answers.
 
 
-  ![Disney´s challenge Color Scheme](assets/images/color-scheme.png)
+  ![Disney´s challenge Color Scheme](assets/images/color-scheme.PNG)
 
 ### Typography
 
-Google Fonts was used to import the chosen fonts for use in the site.
+Google Fonts was used to import the chosen fonts for use on the site.
 
 * For the Page Title I have used the google font [Marhey]('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Marhey:wght@300&family=Oswald:wght@300;400;500;600;700&family=Satisfy&display=swap'). 
-I chooce the type because I want a type who are very similar "disneys´logo"
+I chose the type because I want a type that is very similar to the "Disney logo"
 
-![Almendra Font Example](assets/images/Skärmklipp%20titel.PNG)
 
-same fonts are used in the rest och the pages because I want same textdesign in all my work
 
-![Marhey ewample](assets/images/Skärmklipp-textfont.PNG)
+![Marhey ewample](assets/images/skärmklipp-titel.PNG)
 
 ### Imagery
 
-As the website is called Disney challenge, I wanted to use an image for the page background of familar disney character that the parcipant recognice.
+As the website is called Disney Challenge, I wanted to use an image for the page background of a familiar Disney character that the participant recognizes.
 
 
 ### Features
 
-The website is comprised of a home page, a games page, a high scores page, a 404 error page.
+The website comprises a home page, a games page, an info page, and a 404 error page.
 
 All Pages on the website are responsive and have:
 
@@ -126,48 +111,50 @@ All Pages on the website are responsive and have:
 
   ![favicon](assets/images/favicon/toplogo.png)
 
-* The title of the site at the top of every page. This title also acts as a link back to the home page.
-  ![Disney quiz](assets/images/Skärmklipp-titel.PNG)
+* The title of the site is at the top of every page. This title also acts as a link back to the home page.
+  ![Disney quiz](assets/images/skärmklipp-titel.PNG)
 
-* Every page will display a custom cursor when on a button. This feature is not available on mobile touch devices.
-
-![Custom Cursor](documentation/features/custom-cursor.gif)
+)
 
 #### The Home Page
 
-The home page of The Disney quiz displays the sites name as a title and then a container which holds some welcome text, including alerting the users that they can navigate back to the home page at any time by clicking on the page name. Below this are three buttons: play, how to play and one button for sound.
+The home page of The Disney Quiz displays the site name as a title and then a container that holds some welcome text, including alerting the users that they can navigate back to the home page at any time by clicking on the page name. Below this are two buttons: start and an info button
 
-![Home page image](assets/images/Skärmklipp-homepage.PNG)
+Here, the user is redirected to the info page if they first want to read about the game and how they play.
 
-The how to play  button opens a modal showing the user how to play the game. The modal contains a close button which will close the modal, and show the home page again.
+Or they can write in their name and start the game when they click on the start button, but it is required to write the name first.
 
-![Modal open image](assets/images/Skärmklipp-infopage.PNG)
+The start button will redirect the user to the game page and the first question will be seen.
 
-The play button will redirect the user to the game page and the first question will be seen
+![Home page image](assets/images/skärmklipp-homepage.PNG)
+
+
 
 #### The Game Page
 
-The game page displays the sites name as a title. This also acts as a link back to the home page. In a container can you see the questions just lick on that answer you think it is correct, if it turn in blue have you chooce correct answer and if it turns in lightred it is incorrect answer if you answer incorrect you will see what answer who it is correct in blue. when you have answer correct or incorrect answer a button it stands "next" will be shown on, push on that button and next button will arrived in the screen.
+The game page displays the site's name as a title. This also acts as a link back to the home page. In a container,  you can see the questions.  Just click on the answer you think is correct, if it turns blue, you choose the correct answer, and if it turns light red, it is the incorrect answer. If you answer incorrectly, you will see the answer that is correct in blue. When you have an answer that is correct or incorrect, a button that stands for "next" will be shown. Push that button, and the next button will appear on the screen.
 
 ![Image of the game page ](assets/images/skärmklipp-gamepage.PNG)
 
+If the field the user has chosen is blue, it means it is the correct answer.
+
+![Image of correct answer](assets/images/skärmklipp-rightanswer.PNG)
 
 
-![Image of quiz area](assets/images/skärmklipp-rightanswer.PNG)
-
+If the field is colored light-red, it is an incorrect answer, and the right answer will be blue
 
 ![wrong answer](assets/images/skärmklipp-wronganswer.PNG)
 
 ###end of the game and the score
 
-When the question are finnish the user will directly arrived to the page that tells the game are finnish and what score the user have.
-there are also one buttons, there it stands "Play again".
+When the question is finished, the user will be directed directly to the page that tells them the game is finished and what score they have reached.
+There is also one button, and there it says "Play again" if the user wants to try again.
 
 ![ Scores Page Image](assets/images/Skärmklipp%20score%20resultat.PNG)
 
 #### The 404 Error Page
 
-The 404 error page displays the sites name as a title. This also acts as a link back to the home page. Within the page container there is a sorry message explaining to the user that there has been an error directing them to the page they were looking for. 
+The 404 error page displays the site's name as a title. This also acts as a link back to the home page. Within the page container, there is a sorry message explaining to the user that there has been an error directing them to the page they were looking for. 
 
 ![Error page image](assets/images/skärmklipp-404errorpage.PNG)
 
@@ -175,32 +162,14 @@ The 404 error page displays the sites name as a title. This also acts as a link 
 
 #### Future Implementations
 
-In future implementations I would like to:
+In future implementations, I would like to:
 
 1. Give users the option to select different difficult stages.
 2. more sound and picture
-3. The user can chooce a charcter they want to be.
-4. Add a voice who read the question and it would be picture in the different options that will be easier for smaller kids for play
+3. The user can choose a Disney character they want to be.
+4. Add a voice who reads the question, and it would be a picture of the different options that will be easier for smaller kids to play with.
 
-### Accessibility
 
-I have been mindful during coding to ensure that the website is as accessible for  younger user in the age 5-9 as possible. This has been have achieved by:
-
-* Using semantic HTML.
-* Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
-* Choosing a sans serif font for the site - these fonts are easyer to read for people in all ages.
-* Ensuring that there is a sufficient colour contrast throughout the site.
-
-![contrast button](documentation/contrast-btn.png) ![Contrast button hover](documentation/contrast-btn-hover.png) ![contrast text](documentation/contrast-text.png)
-
-As the site relies on colour to display to the user whether an answer is correct or incorrect, I was interested to see what this would look like for someone with red/green colour blindness. I used the chrome extension [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) to be able to see what someone with red/green colour blindness would see.
-
-In a future implementation I think it would be a great accessibility feature to also add a symbol such as a tick or cross on the answer button to enable people who are colour blind to also be able to access the quiz easier. Each of the images below have whether they are correct/incorrect in the name. Can you tell which one is which?
-
-![Colour blindness (red/green) correct answer](documentation/rg-colour-blind-correct.png)
-![Colour blindness (red/green) incorrect answer](documentation/rg-colour-blind-incorrect.png)
-
-- - -
 
 ## Technologies Used
 
@@ -210,37 +179,24 @@ HTML, CSS, Javascript
 
 ### Frameworks, Libraries & Programs Used
 
-* [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
-
-
-
 * [Github](https://github.com/) - To save and store the files for the website.
 
 * [GitPod](https://gitpod.io/) - IDE used to create the site.
 
 * [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
 
-* [jQuery](https://jquery.com/) - A JavaScript library.
 
 * [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-* [TinyPNG](https://tinypng.com/) To compress images
+* [Mowieweb](https://movieweb.com/best-disney-characters-of-all-time/) for downloaded the picture to backgroundpage
 
-* [Birme](https://www.birme.net/) To resize images and convert to webp format.
+* [Youtube](https://www.youtube.com/)
 
 * [Favicon.io](https://favicon.io/) To create favicon.
 
 * [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
-* [Shields.io](https://shields.io/) To add badges to the README
-
-* [Open Trivia DataBase](https://opentdb.com/) - API used for the trivia questions.
-
-* [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) - a google chrome extension to enable you to view JSON as raw data or parsed.
-
-* [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - a google chrome extension that allows you to view your site as people with accessibility needs would see it.
-
-* [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
+* [Webpage Spell-Check](https://languagetool.org/) - A Google Chrome extension that allows you to spell-check your webpage. Used to check the site and the README for spelling errors.
 
 - - -
 
@@ -248,36 +204,18 @@ HTML, CSS, Javascript
 
 ### Deployment
 
-The site is deployed using GitHub Pages - [The Quiz Arms](https://kera-cudmore.github.io/TheQuizArms/).
+The site is deployed using GitHub Pages - [Disney Challenge](https://zarchri.github.io/portfolio2/).
 
 To Deploy the site using GitHub Pages:
 
 1. Login (or signup) to Github.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms).
+2. Go to the repository for this project, [zarchri/Disney challenge](https://github.com/zarchri/portfolio2).
 3. Click the settings button.
 4. Select pages in the left hand navigation menu.
 5. From the source dropdown select main branch and press save.
 6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
 
-### Local Development
 
-#### How to Fork
-
-To fork the repository:
-
-1. Log in (or sign up) to Github.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms)
-3. Click the Fork button in the top right corner.
-
-#### How to Clone
-
-To clone the repository:
-
-1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms)
-3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 - - -
 
@@ -289,64 +227,37 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 | No | Bug | How I solved the issue |
 | :--- | :--- | :--- |
-| 1 | An error was displaying in the console when next was clicked after the first question, stating that results wasn't defined. | Data was defined in the callApi(), so couldn't be accessed as it was in local scope rather than global scope. By defining data globally and then passing the data as a parameter into the getQuestion() in the nextQuestion() solved this. |
-| 2 | The Questions being pulled in from the JSON have HTML entity characters that are not escaped and therefore display incorrectly with symbols in place of the correct characters. ![Characters not escaping correctly in the JSON data](documentation/characters-not-escaped.webp) | After a lot of research into escaping characters, I came across a post on slack that mentioned using innerHTML rather than innerText. Once I changed the answers to innerHTML the characters are now displaying correctly. |
-| 3 | I have the local storage set up to save the final score as mostRecentScore. However when completing a game and submitting the team name the score added to the high scores section would be the previous score and not the most recent score. | After a lot of research to try and find out why this was happening I went over the code again and decided to see if I changed mostRecentScore in the scoreLog to score it would make a difference. By changing this, I have solved the issue and it now pulls the most recent score achieved. |
-| 4 | Players were able to select an answer which would then display whether correct or incorrect. However they could still click on the answers which meant they could click all the answers to receive the points.| I researched a way to disable the buttons and initially found that I could use answer1.disabled = true; This worked, however it added quite a bit of code, as I had to add this for each button. Further research led me to find [this article](https://blog.revillweb.com/jquery-disable-button-disabling-and-enabling-buttons-with-jquery-5e3ffe669ece) which showed how to use jQuery and the class on the buttons to enable and disable them all at the same time. This then allows me to enable the buttons when a new question has been populated and once a selection has been made, the answer buttons are disabled until the user clicks next to advance onto the next question. |
-| 5 | There was an issue with the data-correct not always being removed correctly from questions, which meant that incorrect answers were displaying as correct | I changed the way the data-correct attribute was removed from the answers, by using the same a for loop similar to what was used to add the data-correct attribute. I also changed the for innerText in the for loop to be innerHTML so that it was correctly reading the same as what was displayed on the button. |
-| 6 | If a user selected an incorrect answer and the correct answer contained HTML entity characters (such as /&#(\d+);/g) the correct button styling would not be applied to the displayCorrectAnswer variable and a error would display in the console. This would then prevent the user from progressing in the quiz as the next button would not display for them to move on.![Bug 6](documentation/bug-6.png) | I adjusted line 161 to use innerHTML rather than innerText, however the issue persisted. I looked for an answer online but struggled to find anything that would help. I then reached out to Bim Williams on Slack who is an alumni on the course and asked to run the problem past him. He suggested adding a function that would decode the HTML entity and then apply that function within line 161. The function takes the HTML entity characters and replaces them with the correct characters. I will be researching this topic further in my spare time to gain a deeper understanding of it. |
+| 1 | On the score result page, it does not show the result, I only see the JavaScript code. | The problem was that I used the wrong sign-market, it worked when I changed them to right.
+| 2 | It only shows 7 questions instead of 14  | The problem was that I had written dubble code in JavaScript it worked out when I deleted one of them. |
+| 3 | I did not get the required field working | After guidance from tutor support, I did not get the submit button in the form, so it worked fine when I changed that |
 
 ### Known Bugs
 
-* When viewing on screens that use touch rather than a cursor, the colour change for the answer button selected is not immediately obvious as the hover state remains on the button. If the user clicks away from the button the colour can then been seen.
-
-  ![Touch Button Colour](documentation/touch-button-colour.gif)
-
-* There is a a warning displaying in the console on the live page. This error seems to be because GitHub hosted pages disable googles 3rd party cookie alternative FLoC, which then throws this error. The error doesn't affect the site in any way.
-
-  ![Console warning](documentation/interest-cohort-error.png)
-
-* When friends tested the site they found that very rarely a game will get stuck on a question, and it will not populate a new question but the question no counter continues to increase. This issue only seems to be if a large number of games are played consecutively, possibly using up the questions in the API. I have not been able to replicate this issue to troubleshoot further.
-  ![Question overloaded](documentation/questions-depleted.gif)
-
-- - -
 
 ## Credits
 
 ### Code Used
 
-* I used [this You Tube tutorial](https://www.youtube.com/watch?v=XH5OW46yO8I) to learn how to create a modal for the how to play section.
+* I used [this You Tube tutorial](https://www.youtube.com/watch?v=PBcqGxrr9g8) to learn how to create a modal for the quiz section
 
-* As the API I used for the questions declared the correct answer and then had an array of incorrect answers, I had to find a way to shuffle the answers together so that the correct answer wouldn't always appear on the same button. Research led me to the Fisher-Yates Shuffle. Other methods of shuffling can favour some items in the array more than others, however the Fisher Yates Shuffle allows for a more even spread of probability of the answer being placed on each button. I used the following [YouTube tutorial](https://www.youtube.com/watch?v=eATLMjs7y4s&list=PL5egNEXQTWmFHAoWFVRLNAvD-9zzyWVxA&index=3) to further adapt the shuffle I had researched on W3Schools to work with the data I had.
-
-As the JavaScript modules of the Code Institute Diploma did not cover local storage, I had to do a bit of research into this topic myself in order to set up the high scores section of my site.
-
-* I used this [video tutorial](https://www.youtube.com/watch?v=DFhmNLKwwGw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=9) on YouTube by [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw) which taught me to save the team name and score to an object, that would then be saved into an array in local storage. It also explained how to sort the items in the array into descending score order, and then to splice the array, I have used the MAX_HIGH_SCORES as my point to splice.
-
-* I used this [video tutorial](https://www.youtube.com/watch?v=jfOv18lCMmw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=10) on YouTube by [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw) to learn how to insert the local storage into the high scores page.
+Accept the video from YouTube. I have read about W3Schools and watched the lessons at the Code Institute.
 
 ### Content
 
-All questions for my site were pulled from [The Open Trivia Database](https://opentdb.com/) using their API.
+All questions for my site were pulled from [Parade](https://parade.com/1041219/alexandra-hurtado/disney-trivia/)  .
 
-All other content for the site, such as introduction messages and instructions were written by myself.
+All other content for the site, such as introduction messages and instructions, was written by myself.
 
 ### Media
 
-[Page background image of a pub](https://pixabay.com/photos/bar-pub-cafe-establishment-stools-2209813/)
+[Page background image of disney character](https://movieweb.com/best-disney-characters-of-all-time/)
 
 ### Acknowledgments
 
 I would like to acknowledge the following people:
 
-* Adegbenga  Adeye - My Code Institute Mentor.
+* Jubril Akolade - My Code Institute Mentor.
 
-* Bim Williams - For being a great sounding board for me when I faced issues with moving onto the next question in the quiz, and for helping solve the issue faced with the HTML entity characters in the answer buttons.
+* Tutor support-for helping me when I struggled in the code that often was very little simple wrong with
 
-* [Dave Horrocks](https://github.com/daveyjh) - For taking the time to walk through my code with me when I was struggling with adding event listeners.
-
-* [Emanuel Silva](https://github.com/manni8436) - For cheering me on when I was struggling with the JavaScript, and for testing the site.
-
-* [Abi Harrison](https://github.com/Abibubble) - For being a great rubber duck and helping debug, helping to test the site and for sharing her knowledge on accessibility.
-
-* The Code Institute Slack channel Peer Code Review - Thank you to everyone who took the time to play the quiz and look over the code.
+* The Code Institute Slack channel Peer Code Review - Thank you to everyone who help me with technically problems
